@@ -1,4 +1,18 @@
 #!/bin/bash
 # Copyright (C) 2017 Ahmed Masud <ahmed.masud@trustifier.com>
 # All rights reserved
-# Chooser 1.0 
+# 
+# See LICENSE for details
+#
+
+# A simple script that lets you make interactive or batch choices
+# and execute commands. 
+#
+# If the shell is interactiv it uses the system dialog or gracefully 
+# drop down to readline (if available) or a simple stdout script
+# 
+# If the shell is non-interactive it assumes that input is availble
+# through stdin or through an imported response file.
+# 
+
+
